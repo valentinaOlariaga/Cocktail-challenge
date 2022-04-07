@@ -14,9 +14,9 @@
             filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "prepare(for:sender:)"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "search(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -30,41 +30,9 @@
             filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D7BBE211-D419-480A-A3B4-55ADC619DA7E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cocktail Challenge/Model/CocktailManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "parseJSON(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7AD9960D-4205-4FD4-AC08-D12027F3A57D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cocktail Challenge/Model/CocktailManagerDrink.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "parseJSON(_:_:)"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -78,8 +46,8 @@
             filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "didUpdateCocktail(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -100,14 +68,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - df62bebed45cca6a"
+                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - fd92d10987d10176"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Cocktail_Challenge.DetailsViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Cocktail_Challenge.DetailsViewController"
                   moduleName = "Cocktail Challenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/Cocktail%20Challenge/Cocktail%20Challenge/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
+                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/CocktailChallenge2/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -115,29 +83,29 @@
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - 4559f925e08d580f"
+                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - 67a99692b300ef69"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Cocktail_Challenge.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Cocktail_Challenge.DetailsViewController"
                   moduleName = "Cocktail Challenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/Cocktail%20Challenge/Cocktail%20Challenge/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
+                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/CocktailChallenge2/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "140">
                </Location>
                <Location
-                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - 234e06eb5a513eee"
+                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - 1be695c09dcf5f2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Cocktail_Challenge.DetailsViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Cocktail_Challenge.DetailsViewController&gt;"
                   moduleName = "Cocktail Challenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/Cocktail%20Challenge/Cocktail%20Challenge/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
+                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/CocktailChallenge2/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -145,29 +113,29 @@
                   offsetFromSymbolStart = "20">
                </Location>
                <Location
-                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - c0ac697403387577"
+                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - e25c06c350b5c211"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Cocktail_Challenge.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Cocktail_Challenge.DetailsViewController&gt;"
                   moduleName = "Cocktail Challenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/Cocktail%20Challenge/Cocktail%20Challenge/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
+                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/CocktailChallenge2/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "56">
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "116">
                </Location>
                <Location
-                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - e00c84b034ed4cf3"
+                  uuid = "A2AEAABC-C7A1-4978-8ED1-367489E293AD - c2fceb07676087ef"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Cocktail_Challenge.DetailsViewController.__deallocating_deinit"
                   moduleName = "Cocktail Challenge"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/Cocktail%20Challenge/Cocktail%20Challenge/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
+                  urlString = "file:///Users/valentinaolariaga/Desktop/Hattrick-it/CocktailChallenge2/Cocktail%20Challenge/Controllers/DetailsViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -187,10 +155,10 @@
             filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "CocktailViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -205,8 +173,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
             endingLineNumber = "48"
-            landmarkName = "CocktailViewController"
-            landmarkType = "3">
+            landmarkName = "search(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -219,10 +187,10 @@
             filePath = "Cocktail Challenge/Model/CocktailDataDrink.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "amountIngredients()"
-            landmarkType = "7">
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "DrinkData"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -235,8 +203,8 @@
             filePath = "Cocktail Challenge/Model/CocktailDataDrink.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "amountIngredients()"
             landmarkType = "7">
          </BreakpointContent>
@@ -251,25 +219,9 @@
             filePath = "Cocktail Challenge/Model/CocktailDataDrink.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "amountIngredients()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "65501059-CE5F-4474-BBE8-460CF90BA44D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cocktail Challenge/Controllers/DetailsViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "reload(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -283,25 +235,9 @@
             filePath = "Cocktail Challenge/Controllers/DetailsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "reload(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "30E8D9FE-9B79-4F5F-BD55-9F83A3F737C9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "search(_:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -315,25 +251,41 @@
             filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "returnDrink(_:)"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "CocktailViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F75F85E9-0756-47E4-87DD-A92EAF1F3E37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cocktail Challenge/Controllers/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A4133A74-9BCA-4D9E-B619-4576E2164AEB"
+            uuid = "41EDE9E3-D937-4B70-B94C-65747BC1A703"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cocktail Challenge/Controllers/CocktailViewController.swift"
+            filePath = "Cocktail Challenge/Controllers/DetailsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "search(_:)"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "doRequest()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

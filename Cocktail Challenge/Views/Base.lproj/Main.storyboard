@@ -82,7 +82,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="2JG-LU-pOi">
                                                         <rect key="frame" x="0.0" y="0.0" width="344" height="343"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFE-S3-Rp9">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFE-S3-Rp9">
                                                                 <rect key="frame" x="0.0" y="0.0" width="344" height="171.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -142,12 +142,6 @@
                             <imageReference key="image" image="arrow.left" catalog="system" symbolScale="medium"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Reload" image="gobackward" catalog="system" id="QpG-Ef-r32">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <action selector="reload:" destination="SCw-yB-yYh" id="4wR-yW-TAz"/>
-                            </connections>
-                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="SSQ-re-sw5" id="PBh-yo-DBG"/>
@@ -197,7 +191,6 @@
     <color key="tintColor" red="0.30980393290000002" green="0.30196079609999998" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
-        <image name="gobackward" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -12,8 +12,6 @@ import Kingfisher
 class CocktailCell: UITableViewCell {
     
     @IBOutlet weak var view: UIView!
-    
-    //@IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var cocktailImage: UIImageView!
     @IBOutlet weak var cocktailName: UILabel!
  
@@ -29,9 +27,5 @@ class CocktailCell: UITableViewCell {
         let url = URL(string : imageStr)!
         cocktailName.text = name
         cocktailImage.kf.setImage(with: url)
-        
-       }
-    
-    
-    
+        }
 }

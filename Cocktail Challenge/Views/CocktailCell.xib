@@ -54,6 +54,8 @@
             <connections>
                 <outlet property="CocktailImage" destination="BRO-w8-F1e" id="ndX-aW-gz7"/>
                 <outlet property="CocktailName" destination="Eiw-2f-Ltf" id="Oyo-Ye-Ifb"/>
+                <outlet property="cocktailImage" destination="BRO-w8-F1e" id="0NM-s4-eW6"/>
+                <outlet property="cocktailName" destination="Eiw-2f-Ltf" id="3cN-en-zOe"/>
                 <outlet property="view" destination="M6P-2k-rat" id="0ig-ZL-7SE"/>
             </connections>
             <point key="canvasLocation" x="278.26086956521743" y="23.772321428571427"/>

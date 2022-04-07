@@ -11,60 +11,73 @@ import Kingfisher
 
 class DetailsViewController: UIViewController {
     
-    static var drink : CocktailDataDrink?
+    var drink : Drink?
+    var drinkDetails : DrinkData?
+    var urlDrink: String = ""
+    var cocktailManagerDrink = CocktailManagerDrink()
+    let uiVioletColor = UIColor(red: 0.31, green: 0.30, blue: 0.73, alpha: 1.00)
     
     @IBOutlet weak var viewDetails: UIView!
-    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelDetails: UILabel!
     @IBOutlet weak var labelIngredients: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(red: 0.31, green: 0.30, blue: 0.73, alpha: 1.00)
-        viewDetails.layer.cornerRadius = self.view.frame.size.height / 100
         
+        self.view.backgroundColor = uiVioletColor
+        viewDetails.layer.cornerRadius = self.view.frame.size.height / 100
+        cocktailManagerDrink.delegate = self
+        showData()
+        cocktailManagerDrink.performRequest(urlDrink)
     }
     
-    @IBAction func reload(_ sender: Any) {
+    func doRequest() {
         labelIngredients.text = ""
-        self.navigationItem.title = DetailsViewController.drink?.drinks[0].strDrink
-        
-        let imageStr = DetailsViewController.drink?.drinks[0].strDrinkThumb
-        let url = URL(string : imageStr!)!
-        imageView.kf.setImage(with: url)
-        
-        if let data = DetailsViewController.drink?.drinks[0].amountIngredients(){
-            for n in data {
+        if let data = drinkDetails?.amountIngredients(){
+            data.forEach { ingredient in
                 labelIngredients.text =  """
-                \(labelIngredients.text!)\(n.measure) - \(n.ingredient)
+                \(labelIngredients.text!)\(ingredient.measure) - \(ingredient.ingredient)
                 
                 """
             }
-            
-            
         }
-        labelDetails.text = DetailsViewController.drink?.drinks[0].strInstructions
-        
+        labelDetails.text = drinkDetails!.strInstructions
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         
-        guard let navBar = navigationController?.navigationBar else {fatalError("Navigation controller does not exist")}
-        let navBarColour = UIColor(red: 0.31, green: 0.30, blue: 0.73, alpha: 1.00)
-        
-        navBar.backgroundColor = navBarColour
-        navBar.tintColor = ContrastColorOf(navBarColour, returnFlat: true)
-        
+        guard let navBar = navigationController?.navigationBar
+        else {
+            fatalError("Navigation controller does not exist")
+        }
+        navBar.backgroundColor = uiVioletColor
+        navBar.tintColor = ContrastColorOf(uiVioletColor, returnFlat: true)
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()
-        appearance.backgroundColor = navBarColour
+        appearance.backgroundColor = uiVioletColor
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         navigationItem.standardAppearance = appearance
         navigationItem.scrollEdgeAppearance = appearance
-        
-        
     }
     
-    
-    
-    
+    func showData() {
+        self.navigationItem.title = drink?.strDrink
+        let imageStr = drink?.strDrinkThumb
+        let url = URL(string : imageStr!)!
+        imageView.kf.setImage(with: url)
+   }
+}
+
+extension DetailsViewController : CocktailManagerDrinkDelegate {
+
+    func didUpdateCocktail(_ cocktailManagerDrink: CocktailManagerDrink, _ drink : CocktailDataDrink) {
+        drinkDetails = drink.drinks[0]
+        doRequest()
+    }
+
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+
 }

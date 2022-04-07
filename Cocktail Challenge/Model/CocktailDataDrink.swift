@@ -7,12 +7,10 @@
 
 import UIKit
 
-
 struct CocktailDataDrink : Decodable{
     let drinks : [DrinkData]
     
 }
-
 
 struct DrinkData : Decodable{
     let strDrink : String
@@ -90,7 +88,6 @@ struct DrinkData : Decodable{
                                          strIngredient15]
         
         for n in 0...14 where nilValue == false{
-            
             if let value = strIngredient[n] {
                 let detail = Detail(ingredient: value, measure: strMeasure[n]!)
                 strDetails.append(detail)
@@ -100,8 +97,6 @@ struct DrinkData : Decodable{
         }
         return strDetails
     }
-    
-    
 }
 
 struct Detail {
