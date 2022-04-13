@@ -13,7 +13,7 @@ class DetailsViewController: UIViewController {
     
     var drink : Drink?
     var drinkDetails : DrinkData?
-    var urlDrink: String = ""
+    let baseURLIdDrink = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i="
     var cocktailManagerDrink = CocktailManagerDrink()
     let uiVioletColor = UIColor(red: 0.31, green: 0.30, blue: 0.73, alpha: 1.00)
     
@@ -25,6 +25,7 @@ class DetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let urlDrink: String = "\(baseURLIdDrink)\(drink!.idDrink)"
         self.view.backgroundColor = uiVioletColor
         viewDetails.layer.cornerRadius = self.view.frame.size.height / 100
         cocktailManagerDrink.delegate = self
